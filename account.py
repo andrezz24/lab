@@ -36,14 +36,14 @@ class Account:
 
     def get_balance(self) -> float:
         """
-        Methods that gets the current account balance.
+        Method that gets the current account balance.
         :return: Account balance.
         """
         return self.__account_balance
 
     def get_name(self) -> str:
         """
-        Methods that gets the account name.
+        Method that gets the account name.
         :return: Account name.
         """
         return self.__account_name
