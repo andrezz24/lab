@@ -36,3 +36,6 @@ class Test:
 
         assert self.p1.withdraw(0) is False
         assert self.p1.get_balance() == pytest.approx(30.50, abs=0.001)
+
+        assert self.p1.withdraw(-25.50) is False
+        assert self.p1.get_balance() == pytest.approx(30.50, abs=0.001)
